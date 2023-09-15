@@ -1,0 +1,25 @@
+{
+  "name": "taskrunner",
+  "version": "1.0.0",
+  "description": "Will Run different chain of Task asynchronously",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/src/index.js"
+  },
+  "author": "Ankit Soni",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "class-transformer": "^0.4.0",
+    "class-validator": "^0.14.0",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.18",
+    "@types/node": "^18.15.9"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "JobName": "TestJob",
+  "TaskChain": [
+    {
+      "TaskName": "TestTask",
+      "async": true,
+      "retry": true,
+      "retries": 4,
+      "handlerType": "Default",
+      "maxConcurrency": 10
+    }
+  ],
+  "onComplete": [
+    {
+      "TaskName": "Test2Task",
+      "retry": true,
+      "retries": 4
+    }
+  ]
+}
